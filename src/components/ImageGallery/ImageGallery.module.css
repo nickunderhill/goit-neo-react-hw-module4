@@ -1,0 +1,13 @@
+.imageGallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+    padding: 16px;
+}
+
+.imageGalleryItem {
+    position: relative;
+    padding-bottom: 75%;
+    overflow: hidden;
+}
+

@@ -1,0 +1,25 @@
+.loadMore {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.loadMoreBtn {
+    max-width: 150px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+
+.loadMoreBtn:hover {
+    background-color: #0056b3;
+}
